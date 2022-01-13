@@ -1,5 +1,5 @@
-#YAY CSE 15l 1-3 PM
+Lab Reports
 
-**this** jfsdkfj _as I type_
+_Sudhir Vasudevan_
 [Lab Report 1](lab-report-1-week-2.html)
 ![Image](Capture.JPG)
