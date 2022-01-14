@@ -6,7 +6,8 @@ I already had Intellij installed for many years now, but here are the installati
 * After following all these steps you should have something similar to the below image:
 ![img](Capture.JPG)  
 <br />
-* Note: your image will look different based on your theme, mine is dark themed. Furthermore you won't have all the projects on the side, that is like your recent history. This will probably be blank if it is your first time using the program.
+* Note: your image will look different based on your theme, mine is dark themed. Furthermore you won't have all the projects on the side, that is your recently opened projects history. This will probably be blank if it is your first time using the program.       
+<br />
 # Remotely Connecting
 Using the IDE, we can connect to and work on a remote computer through the internet. The first step is to download OpenSSH by following the instructions in this [link.](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 Then you can find your course account, by putting your Active Directory Login into this website [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php).
@@ -20,7 +21,8 @@ Type in the command "ssh " followed by your account that you found in the last s
 If this is your first time connecting, you should get a prompt that asks "Are you sure you want to continue connecting (yes/no/[fingerprint])?", respond yes as it is an expected message. 
 ![img3](screenshot1.JPG)    
 <br />
-If it shows a similar message to the above image, your terminal(_client_) is successfully connected to the CSE basement computer(_server_).
+If it shows a similar message to the above image, your terminal(_client_) is successfully connected to the CSE basement computer(_server_).     
+<br />
 # Trying Some Commands
 Once connected, you can try to run some commands such as `cd`, `ls`, `pwd`, `mkdir`, `cp`. Some examples of me running those commands are below:
 ![img4](capture3.JPG)    
