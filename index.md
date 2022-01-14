@@ -1,4 +1,3 @@
-
 # CSE 15L Lab Reports
 
 _By Sudhir Vasudevan_
