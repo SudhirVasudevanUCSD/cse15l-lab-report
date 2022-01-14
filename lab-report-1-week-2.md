@@ -69,7 +69,7 @@ Now run the following commands, and you should get similar responses as I have g
 These last commands are to securely store the private keys within Windows.
 Once we have the keys generated, now we want to copy the public key over to the .ssh directory on the server's user account. However the directory .ssh doesn't exist yet so we have to make it first. 
 To achieve this, 
-*First log on to the ieng6 computer using the ssh command we used above
+* First log on to the ieng6 computer using the ssh command we used above
 * Run the command `mkdir .ssh`
 * Logout using the `exit` command 
 * Use the command 'scp /Users/name/.ssh/id_rsa.pub cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys' with your user name and path to copy the public key to the .ssh directory of the user account on the server.
@@ -89,7 +89,7 @@ Some other optimization techniques include:
 Using these tricks we can first make any random edit on the WhereAmI.java, my edit is going to be adding the line `System.out.println("optimized")` at the top
 Then I am going to use the scp command to copy the file over. Then using the semicolon trick I am going to on the same line, log into my account and using the quotation trick, compile and run the WhereAmI file.
 Here is how it looks like: 
-><br />
+>   <br />
 ![img11](Capture10.JPG)      
 ><br />
 Feel free to experiment with different methods, as well.
