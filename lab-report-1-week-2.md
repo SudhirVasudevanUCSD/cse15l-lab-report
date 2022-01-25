@@ -17,10 +17,11 @@ The page will look something like this, with your course account for CSE15L bein
 ![img2](account.JPG)   
 <br />
 Once retrieving your account info, open terminal on Intellij by clicking the "Terminal" button on the bottom left of the screen. 
-Type in the command "ssh " followed by your account that you found in the last step concatenated with "@ieng6.ucsd.edu". 
+Type in the command `ssh` followed by your account that you found in the last
+ step concatenated with `@ieng6.ucsd.edu`. 
 > Should be in a similar form to `ssh cs15lwi22zz@ieng6.ucsd.edu`.
 >
-If this is your first time connecting, you should get a prompt that asks "Are you sure you want to continue connecting (yes/no/[fingerprint])?", respond yes as it is an expected message. 
+If this is your first time connecting, you should get a prompt that asks "Are you sure you want to continue connecting (yes/no/[fingerprint])?", respond `yes` as it is an expected message. 
 <br />
 ![img3](screenshot1.JPG)    
 <br />
@@ -34,7 +35,7 @@ Once connected, you can try to run some commands such as `cd`, `ls`, `pwd`, `mkd
 # Moving Files with scp
 It is possible to copy files to a remote computer using the command `scp`. To test, first create a file called `WhereAmI.java` with the below contents:
 <br />
->class WhereAmI {
+```class WhereAmI {
    public static void main(String[] args) {
      System.out.println(System.getProperty("os.name"));
      System.out.println(System.getProperty("user.name"));
@@ -42,7 +43,7 @@ It is possible to copy files to a remote computer using the command `scp`. To te
      System.out.println(System.getProperty("user.dir"));
    }
  }
->
+```
 Using standard `javac` and `java` commands, run the file locally on **your** terminal. You should get an output similar in this format, obviously varying with which OS you are using, your name and file path.
 <br />
 ![img5](Capture4.JPG)    
@@ -69,11 +70,11 @@ Now run the following commands, and you should get similar responses as I have g
 These last commands are to securely store the private keys within Windows.
 Once we have the keys generated, now we want to copy the public key over to the .ssh directory on the server's user account. However the directory .ssh doesn't exist yet so we have to make it first. 
 To achieve this, 
-* First log on to the ieng6 computer using the ssh command we used above
+* First log on to the ieng6 computer using the `ssh` command we used above
 * Run the command `mkdir .ssh`
 * Logout using the `exit` command 
-* Use the command 'scp /Users/name/.ssh/id_rsa.pub cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys' with your user name and path to copy the public key to the .ssh directory of the user account on the server.
-Now try running ssh or scp and note how much easier it is to log in.
+* Use the command `scp /Users/name/.ssh/id_rsa.pub cs15lwi22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` with your user name and path to copy the public key to the .ssh directory of the user account on the server.
+Now try running `ssh` or `scp` and note how much easier it is to log in.
 <br />
 ![img9](Capture8.JPG)
 ![img10](Capture9.JPG)     
@@ -81,17 +82,27 @@ Now try running ssh or scp and note how much easier it is to log in.
 # Optimizing Remote Running
 Then using the information we have learned from the previous steps we can try to optimize making a local edit to WhereAmI.java, then copying it to the remote server and running it.
 Some other optimization techniques include:
->- Writing a command in quotes at the end of a ssh command to immediately run it then logout
+>- Writing a command in quotes at the end of a `ssh` command to immediately run it then logout
 >-  `ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 >- Using semicolons to run multiple commands on the same line
 >- cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 >- You can use the up and down arrows to recall the last few commands run. 
-Using these tricks we can first make any random edit on the WhereAmI.java, my edit is going to be adding the line `System.out.println("optimized")` at the top
-Then I am going to use the scp command to copy the file over. Then using the semicolon trick I am going to on the same line, log into my account and using the quotation trick, compile and run the WhereAmI file.
-Here is how it looks like: 
->   <br />
-![img11](Capture10.JPG)      
-><br />
-Feel free to experiment with different methods, as well.
+Using these tricks we can first make any random edit on the WhereAmI.java, my
+> edit is going to be adding the line `System.out.println("optimized")` at the top.
+>Then I am going to use the `scp` command to copy the file over. Then using
+> the semicolon trick I am going to on the same line, log into my account and using the quotation trick, compile and run the WhereAmI file.
+>This method allows us to quickly run the commands for the first time, but it
+> is still a lot of keystrokes, almost near fifty.
+>Here is how it looks: 
+ >   <br />
+ ![img11](Capture10.JPG)      
+ ><br />
+> The most optimal way to run the code after any future edits is to use
+> the up and down arrows to recall previous commands. So my new keystroke
+> sequence looked like, [Ctrl-S], [Mouse to terminal], [Up arrow], [Enter
+>], [Down Arrow], [Enter], which is just 6 keystrokes, which greatly
+> decreases testing/running time.
+
+Feel free to experiment with different methods, as well!
 
 That's all for this time! 
