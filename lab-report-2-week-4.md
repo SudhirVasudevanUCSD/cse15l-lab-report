@@ -1,7 +1,7 @@
 #1st Issue
 Code Change Diff:
 ![img1](Lab%20Report%202%20Images/Issue%20%231.JPG)
-Test File that prompted change: [File](test-file2.md)
+Test File that prompted change: [link](test-file2.md)
 <br />
 <br/>
 Symptom Output: 
@@ -14,7 +14,7 @@ between image or regular links(which is the bug). So when tested on a faulty
 #2nd Issue
 Code Change Diff:
 ![img3](Lab%20Report%202%20Images/Issue%20%232.JPG)
-Test File that prompted change: Empty File Case
+Test File that prompted change: `No File Case`
 <br />
 <br/>
 Symptom Output:
@@ -28,7 +28,7 @@ Description: The initial code doesn't have a way to handle a no file input or
 #3rd Issue
 Code Change Diff:
 ![img3](Lab%20Report%202%20Images/Issue%20%233.JPG)
-Test File that prompted change: [File](test-file.md)
+Test File that prompted change: [link](test-file.md)
 <br />
 <br/>
 Symptom Output:
