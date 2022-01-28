@@ -1,7 +1,7 @@
 #1st Issue
 Code Change Diff:
 ![img1](Lab%20Report%202%20Images/Issue%20%231.JPG)
-Test File that prompted change: <a href="test-file2.html" download>test-file2.html</a>
+Test File that prompted change: <a href="test-file2.md" download>test-file2.md</a>
 <br />
 <br/>
 Symptom Output: 
@@ -39,7 +39,8 @@ Description: The initial code doesn't have a way to handle a no file input or
 
 Code Change Diff:
 ![img3](Lab%20Report%202%20Images/Issue%20%233.JPG)
-Test File that prompted change: <a href="test-file.html" download>test-file.html</a>
+Test File that prompted change: <a href="test-file.md" download>test-file.md
+</a>
 <br />
 <br/>
 Symptom Output:
