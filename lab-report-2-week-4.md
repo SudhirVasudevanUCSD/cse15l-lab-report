@@ -11,7 +11,12 @@ Description: The initial code doesn't have a way to distinguish
 between image or regular links(which is the bug). So when tested on a faulty
  inducing input file with just an image location, the code incorrectly
   returns the image location as a "link" as seen in the symptom output.
-#2nd Issue
+<br/>
+
+#2nd Issue       
+
+<br/>  
+
 Code Change Diff:
 ![img3](Lab%20Report%202%20Images/Issue%20%232.JPG)
 Test File that prompted change: `No File Case`
@@ -24,8 +29,14 @@ Description: The initial code doesn't have a way to handle a no file input or
   least one command line argument(which is the bug). So when tested on a faulty
  inducing input by running the command "java MarkdownParse" without any
   arguments, the code incorrectly handles the case by throwing an
-   ArrayIndexOutOfBounds Exception as seen in the symptom output.
-#3rd Issue
+   ArrayIndexOutOfBounds Exception as seen in the symptom output.  
+
+<br/>
+
+#3rd Issue  
+
+<br/>
+
 Code Change Diff:
 ![img3](Lab%20Report%202%20Images/Issue%20%233.JPG)
 Test File that prompted change: [link](test-file.md)
