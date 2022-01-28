@@ -1,7 +1,7 @@
 #1st Issue
 Code Change Diff:
 ![img1](Lab%20Report%202%20Images/Issue%20%231.JPG)
-Test File that prompted change: [link](test-file2.html)
+Test File that prompted change: [test-file2.md]({{file name='test-file2.md'}})
 
 <br />
 <br/>
