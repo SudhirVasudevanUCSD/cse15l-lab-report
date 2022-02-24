@@ -1,4 +1,5 @@
 #Streamlining ssh Configuration
+
 ## ```.ssh/config``` file
 ![img1](Lab%20Report%203%20Images/GitBash.JPG)
 My computer already had a .ssh directory but the config file wasn't yet, so I
@@ -20,7 +21,7 @@ After creating the config file, I tried to login with the alias "ieng6" that
   <br/>
   
 ## scp command
-![img3](Lab%20Report%203%20Images/Login%20with%20SSH.JPG)
+![img3](Lab%20Report%203%20Images/SCP.JPG)
 As seen in the image, I used the scp command on file, "MyArrayList.class
 " with the alias I had chosen. Then to verify the file got copied over, I
  logged into the server with my account and when I did ls, I saw that the
