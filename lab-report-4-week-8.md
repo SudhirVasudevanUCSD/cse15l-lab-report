@@ -8,7 +8,7 @@
 
 <br/>
 
-##Snippet 1  
+## Snippet 1  
 
 <br/>
 
@@ -37,7 +37,7 @@ reviewed implementation.
 <br />
 
 
-#Snippet 2  
+## Snippet 2  
 
 <br />
 
@@ -67,7 +67,7 @@ As seen in the image, testSnippet2() failed, meaning this test failed in the
 <br />
 
 
-#Snippet 3  
+## Snippet 3  
 
 <br />
 
