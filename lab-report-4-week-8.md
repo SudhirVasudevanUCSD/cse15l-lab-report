@@ -14,7 +14,7 @@
 
 ### Expected Output:    
 
-![img1](Lab%20Report%204%20Images/%231.JPG)  
+![img1](Lab%20Report%204%20Images/Img1.JPG)  
 
 <br />
 
@@ -43,7 +43,7 @@ reviewed implementation.
 
 ### Expected Output:     
 
-![img2](Lab%20Report%204%20Images/%232.JPG)  
+![img2](Lab%20Report%204%20Images/Img2.JPG)  
 
 <br />
 
@@ -72,7 +72,7 @@ As seen in the image, testSnippet2() failed, meaning this test failed in the
 <br />
 
 ### Expected Output:  
-![img3](Lab%20Report%204%20Images/%233.JPG)  
+![img3](Lab%20Report%204%20Images/Img3.JPG)  
 
 <br />
 
