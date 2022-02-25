@@ -1,12 +1,21 @@
-#The Tests:
+#The Tests:  
+
 [My Repo](https://github.com/SudhirVasudevanUCSD/markdown-parse)  
 
 <br/>
 
-[Reviewed Repo](https://github.com/pvijay03/markdown-parse)
-##Snippet 1
-### Expected Output:  
-![img1](Lab%20Report%204%20Images/%231.JPG)
+[Reviewed Repo](https://github.com/pvijay03/markdown-parse)  
+
+<br/>
+
+##Snippet 1  
+
+<br/>
+
+### Expected Output:    
+
+![img1](Lab%20Report%204%20Images/%231.JPG)  
+
 <br />
 
 ### Code Test:  
@@ -29,13 +38,19 @@ reviewed implementation.
 
 <br />
 
-##Snippet 2
-### Expected Output:  
-![img2](Lab%20Report%204%20Images/%232.JPG)
+##Snippet 2  
+
+<br />
+
+### Expected Output:     
+
+![img2](Lab%20Report%204%20Images/%232.JPG)  
+
 <br />
 
 ### Code Test:  
-![imgTest2](Lab%20Report%204%20Images/Test2.JPG)
+![imgTest2](Lab%20Report%204%20Images/Test2.JPG)  
+
 <br />
 
 ### My Implementation's Output:  
@@ -54,13 +69,19 @@ As seen in the image, testSnippet2() failed, meaning this test failed in the
 
 <br />
 
-##Snippet 3     
+##Snippet 3  
+
+<br />
+
 ### Expected Output:  
-![img3](Lab%20Report%204%20Images/%233.JPG)
+![img3](Lab%20Report%204%20Images/%233.JPG)  
+
 <br />
 
 ### Code Test:  
-![imgTest3](Lab%20Report%204%20Images/Test3.JPG)
+![imgTest3](Lab%20Report%204%20Images/Test3p1.JPG)  
+![imgTest3](Lab%20Report%204%20Images/Test3p2.JPG)    
+
 <br />
 
 ### My Implementation's Output:  
