@@ -8,7 +8,6 @@ My computer already had a .ssh directory but the config file wasn't yet, so I
    ran the commands "touch config" and "nano config" to create and then open
     the config file. Then as seen in the picture, I just typed up the lines
      specified in the lab with my username and chosen alias.  
-     
 <br/>
 
 ## ssh command
