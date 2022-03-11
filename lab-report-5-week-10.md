@@ -57,12 +57,16 @@ This method doesn't do anything to check whether the text in between the
 <br />
 
 ![img3](Lab%20Report%205%20Images/Case884.JPG)
+
+<br />
+
 Corresponding test file: 472.md
 ![img6](Lab%20Report%205%20Images/File497.JPG)
 My interpretation was correct because as verified by CommonMark, the correct
  url in the picture is ```foo\(and\(bar\))``` and my interpretation returned 
  that output while the given interpretation returned no link found. 
   
+<br />
  Bug in their code:
  ![img5](Lab%20Report%205%20Images/img2.JPG)
 The bug is that as we see in this line, the given implementation only
